@@ -961,6 +961,11 @@ section:not(.hidden) {
         -ms-flex-direction: column;
         flex-direction: column;
     }
+    #available_two .swiper-pagination,
+    #available_white .swiper-pagination {
+        position: relative;
+        bottom: 103px !important;
+    }
 }
 
 .olga_img img {
