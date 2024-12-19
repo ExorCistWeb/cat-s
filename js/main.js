@@ -67,3 +67,14 @@ window.addEventListener('scroll', () => {
     // Обновляем последнюю позицию прокрутки
     lastScroll = currentScroll;
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const burgerMenu = document.querySelector(".burger-menu");
+    const navLinksBurgerMenu = document.querySelector(".navLinksBurgerMenu");
+  
+    burgerMenu.addEventListener("click", () => {
+      burgerMenu.classList.toggle("active");
+      navLinksBurgerMenu.classList.toggle("active");
+    });
+  });
+  
